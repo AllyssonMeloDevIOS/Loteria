@@ -90,7 +90,7 @@
                                             </button>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" alignment="center" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="buN-w0-LeB">
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="buN-w0-LeB">
                                         <rect key="frame" x="0.0" y="98" width="300" height="90"/>
                                         <subviews>
                                             <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xHd-Ld-IyX">
@@ -139,8 +139,8 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="gameType" destination="pVI-v4-pvR" id="zmg-6j-QMc"/>
                         <outlet property="lbGametype" destination="dHa-J9-nBR" id="ia4-Mf-6WO"/>
+                        <outlet property="scGameType" destination="pVI-v4-pvR" id="lPY-a8-YZB"/>
                         <outletCollection property="balls" destination="p5D-n4-GPG" collectionClass="NSMutableArray" id="l9M-e6-Z4t"/>
                         <outletCollection property="balls" destination="dN1-vv-MCv" collectionClass="NSMutableArray" id="L6a-Jf-W26"/>
                         <outletCollection property="balls" destination="iAw-MM-4AD" collectionClass="NSMutableArray" id="9iL-WD-xX0"/>
